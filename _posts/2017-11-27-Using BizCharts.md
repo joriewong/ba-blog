@@ -86,19 +86,21 @@ ReactDOM.render((
 > (fieldName: string, scaleConfig: object) | (scaleConfig: object) 图表数据源相关的比例尺信息，scaleConfig 可配置属性如下。
 
 ```
-scale={{
-  fieldName:'sales',
-  //scaleConfig
+scale={
   {
-    type: 'identity' | 'linear' | 'cat' | 'time' | 'timeCat' | 'log' | 'pow', // 指定数据类型
-    alias: string, // 数据字段的别名
-    formatter: function, // 格式化文本内容
-    range: array, // 输出数据的范围，默认[0, 1]，格式为 [min, max]，min 和 max 均为 0 至 1 范围的数据。
-    tickCount: number, // 设置坐标轴上刻度点的个数
-    ticks: array, // 用于指定坐标轴上刻度点的文本信息，当用户设置了 ticks 就会按照 ticks 的个数和文本来显示
-    sync: boolean // 当 chart 存在不同数据源的 view 时，用于统一相同数据属性的值域范围
+    fieldName:'sales',
+    //scaleConfig
+    {
+      type: 'identity' | 'linear' | 'cat' | 'time' | 'timeCat' | 'log' | 'pow', // 指定数据类型
+      alias: string, // 数据字段的别名
+      formatter: function, // 格式化文本内容
+      range: array, // 输出数据的范围，默认[0, 1]，格式为 [min, max]，min 和 max 均为 0 至 1 范围的数据。
+      tickCount: number, // 设置坐标轴上刻度点的个数
+      ticks: array, // 用于指定坐标轴上刻度点的文本信息，当用户设置了 ticks 就会按照 ticks 的个数和文本来显示
+      sync: boolean // 当 chart 存在不同数据源的 view 时，用于统一相同数据属性的值域范围
+    }
   }
-}}
+}
 ```
 
 **placeholder[String]**

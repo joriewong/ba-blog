@@ -1,9 +1,9 @@
 ---
   layout: default
-  title: Trim
+  title: Trim snippet
 ---
 
-## {{ page.title }}
+# {{ page.title }}
 
 ```
   String.prototype.trim = function() {

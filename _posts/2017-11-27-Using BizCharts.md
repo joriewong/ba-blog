@@ -161,6 +161,7 @@ scale={
 - `<Axis>`坐标轴组件只可以作为`<Chart>`或`<View>`的child，同时`<Axis>`组件下不能嵌套其他图表组件。
 - BizCharts中将Axis抽离为一个单独的组件，不使用则默认不显示坐标轴及相关信息。
 - 使用Axis组件时，必须指定当前坐标轴对应数据源中的字段名
+
 ```
 // 制定坐标轴对应数据源中的字段名
 <Chart width={600} height={400} source={data}>
@@ -168,7 +169,9 @@ scale={
   <Geom type="interval" position="genre*sold" color="genre" />
 </Chart>
 ```
+
 - 一旦使用`<Axis>`组件，那么所有的坐标轴都会显示，如若需要隐藏某一个坐标轴及相关信息，务必将visible参数并置为false
+
 ```
 // 只显示其中一条坐标轴
 <Chart width={600} height={400} source={data}>
@@ -177,6 +180,7 @@ scale={
   <Geom type="interval" position="genre*sold" color="genre" />
 </Chart>
 ```
+
 **更多属性、方法参考[Axis API doc][10]**。
 
 #### Geom `实体组件`
@@ -263,6 +267,7 @@ BizCharts 中并没有特定的图表类型（柱状图、散点图、折线图�
 #### Label `实体组件`
 
 几何标记的辅助文本组件。必须是`<Geom>`的child。
+
 ```
 <Geom>
   <Label content='sales' .../>
@@ -272,6 +277,7 @@ BizCharts 中并没有特定的图表类型（柱状图、散点图、折线图�
 **content[String|Array:[String, Function]]**
 
 指定label上显示的文本内容，可以是数据纬度，也可以自定义。
+
 ```
 <Label
   content="常量字符串"
@@ -385,6 +391,7 @@ tooltip每项记录的模板，这个属性可以格式化tooltip的显示内容
 ```
 
 **格式化tooltip显示内容**
+
 ```
 <Chart>
   <Geom

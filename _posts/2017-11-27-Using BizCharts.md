@@ -227,7 +227,7 @@ BizCharts 中并没有特定的图表类型（柱状图、散点图、折线图�
 
 ![image_1bvm1i395l6o15uqebh1fik5ij9.png-22.4kB][12]
 
-**color['field'|['field', colors]|['field', 'color1-color2-colorN']]**
+**color**['field'|['field', colors]|['field', 'color1-color2-colorN']]
 
 - field：对应数据字段名
 - colors：数据值映射到指定的颜色值
@@ -274,7 +274,7 @@ BizCharts 中并没有特定的图表类型（柱状图、散点图、折线图�
 </Geom>
 ```
 
-**content[String|Array:[String, Function]]**
+**content**[String|Array:[String, Function]]
 
 指定label上显示的文本内容，可以是数据纬度，也可以自定义。
 

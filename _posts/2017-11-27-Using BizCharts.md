@@ -140,7 +140,7 @@ scale={
 ![scale.gif-47.8kB][6]
 
 
-**reflect['x'|'y']**
+**reflect**['x'|'y']
 
 
 镜像, 沿 x 方向镜像或者沿 y 轴方向映射。
@@ -254,7 +254,7 @@ BizCharts 中并没有特定的图表类型（柱状图、散点图、折线图�
 - color 属性, 会赋予不同的图例项不同的颜色来区分图形；
 - size 属性, 在图例上显示图形的大小。
 
-**position  'top'|'left'|'right'|'bottom'**
+**position** 'top'|'left'|'right'|'bottom'
 
 图例显示位置。默认值:'right'。
 
@@ -452,7 +452,7 @@ tooltip每项记录的模板，这个属性可以格式化tooltip的显示内容
 </Facet>
 ```
 
-**type['rect'|'list'|'circle'|'tree'|'mirror']**
+**type**['rect'|'list'|'circle'|'tree'|'mirror']
 
 - rect：默认类型，指定2个维度作为行列，形成图表的矩阵
 - list：指定一个维度，可以指定一行有几列，超出自动换行
@@ -461,7 +461,7 @@ tooltip每项记录的模板，这个属性可以格式化tooltip的显示内容
 - mirror：指定一个维度，形成镜像图表
 - matrix：指定两个维度，形成矩阵分面图表
 
-**fields[String|Array]**
+**fields**[String|Array]
 
 设定数据划分的维度，是数据的字段名，包含多个维度时使用数组传入。
 

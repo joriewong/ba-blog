@@ -139,15 +139,20 @@ scale={
 
 ![scale.gif-47.8kB][6]
 
-**reflect['x'|'y']**
+
+**reflect**['x'|'y']
+
 
 镜像, 沿 x 方向镜像或者沿 y 轴方向映射。
 
 ![reflect.png-8.5kB][7]
 
+
 **更多属性、方法参考[Coord API doc][8]**
 
+
 #### Axis `实体组件`
+
 
 坐标轴组件。通常包含两个坐标轴，在笛卡尔坐标系下，分别为x轴和y轴，在极坐标系下，则分别由角度和半径2个维度构成。每个坐标轴由坐标轴线（line）、刻度线（tickLine）、刻度文本（label）、标题（title）以及网格线（grid）组成。
 
@@ -156,6 +161,7 @@ scale={
 - `<Axis>`坐标轴组件只可以作为`<Chart>`或`<View>`的child，同时`<Axis>`组件下不能嵌套其他图表组件。
 - BizCharts中将Axis抽离为一个单独的组件，不使用则默认不显示坐标轴及相关信息。
 - 使用Axis组件时，必须指定当前坐标轴对应数据源中的字段名
+
 ```
 // 制定坐标轴对应数据源中的字段名
 <Chart width={600} height={400} source={data}>
@@ -163,7 +169,9 @@ scale={
   <Geom type="interval" position="genre*sold" color="genre" />
 </Chart>
 ```
+
 - 一旦使用`<Axis>`组件，那么所有的坐标轴都会显示，如若需要隐藏某一个坐标轴及相关信息，务必将visible参数并置为false
+
 ```
 // 只显示其中一条坐标轴
 <Chart width={600} height={400} source={data}>
@@ -172,6 +180,7 @@ scale={
   <Geom type="interval" position="genre*sold" color="genre" />
 </Chart>
 ```
+
 **更多属性、方法参考[Axis API doc][10]**。
 
 #### Geom `实体组件`
@@ -218,7 +227,7 @@ BizCharts 中并没有特定的图表类型（柱状图、散点图、折线图�
 
 ![image_1bvm1i395l6o15uqebh1fik5ij9.png-22.4kB][12]
 
-**color['field'|['field', colors]|['field', 'color1-color2-colorN']]**
+**color**['field'|['field', colors]|['field', 'color1-color2-colorN']]
 
 - field：对应数据字段名
 - colors：数据值映射到指定的颜色值
@@ -245,7 +254,7 @@ BizCharts 中并没有特定的图表类型（柱状图、散点图、折线图�
 - color 属性, 会赋予不同的图例项不同的颜色来区分图形；
 - size 属性, 在图例上显示图形的大小。
 
-**position  'top'|'left'|'right'|'bottom'**
+**position** 'top'|'left'|'right'|'bottom'
 
 图例显示位置。默认值:'right'。
 
@@ -258,15 +267,17 @@ BizCharts 中并没有特定的图表类型（柱状图、散点图、折线图�
 #### Label `实体组件`
 
 几何标记的辅助文本组件。必须是`<Geom>`的child。
+
 ```
 <Geom>
   <Label content='sales' .../>
 </Geom>
 ```
 
-**content[String|Array:[String, Function]]**
+**content**[String|Array:[String, Function]]
 
 指定label上显示的文本内容，可以是数据纬度，也可以自定义。
+
 ```
 <Label
   content="常量字符串"
@@ -380,6 +391,7 @@ tooltip每项记录的模板，这个属性可以格式化tooltip的显示内容
 ```
 
 **格式化tooltip显示内容**
+
 ```
 <Chart>
   <Geom
@@ -440,7 +452,7 @@ tooltip每项记录的模板，这个属性可以格式化tooltip的显示内容
 </Facet>
 ```
 
-**type['rect'|'list'|'circle'|'tree'|'mirror']**
+**type**['rect'|'list'|'circle'|'tree'|'mirror']
 
 - rect：默认类型，指定2个维度作为行列，形成图表的矩阵
 - list：指定一个维度，可以指定一行有几列，超出自动换行
@@ -449,7 +461,7 @@ tooltip每项记录的模板，这个属性可以格式化tooltip的显示内容
 - mirror：指定一个维度，形成镜像图表
 - matrix：指定两个维度，形成矩阵分面图表
 
-**fields[String|Array]**
+**fields**[String|Array]
 
 设定数据划分的维度，是数据的字段名，包含多个维度时使用数组传入。
 

@@ -7,7 +7,7 @@
 
 ## 安装ruby
 
-下载rubyinstaller安装：https://rubyinstaller.org/downloads/(推荐Ruby 2.2.6版本)
+下载rubyinstaller安装：https://rubyinstaller.org/downloads/ (推荐Ruby 2.2.6版本)
 
 ```
 $ ruby -v
@@ -39,4 +39,5 @@ $ gem install bundle
 
 ```
 $ jekyll new ba-blog
+$ jekyll serve
 ```

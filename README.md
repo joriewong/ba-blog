@@ -26,7 +26,7 @@ $ ruby dk.rb install
 ```
 
 ## 安装Jekyll
-切换gem镜像后再安装Jekyll（可能需要安装bundle）
+切换gem镜像后再安装Jekyll（需要安装bundler）
 
 ```
 $ gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
@@ -34,7 +34,7 @@ $ gem sources -l
 https://gems.ruby-china.org
 
 $ gem install Jekyll
-$ gem install bundle
+$ gem install bundler
 ```
 
 ## 新建博客

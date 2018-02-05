@@ -1,5 +1,5 @@
 ---
-  layout: default
+  layout: post
   title: Virtual Machine Network
 ---
 
@@ -37,5 +37,3 @@ Guest模拟专供Guest使用的网卡，该网卡与Host不属于同一网段，
 
 
   [1]: http://static.zybuluo.com/wongjorie/qs1zd6kebidfydn34towqqx5/image_1bqeemj9d1geh1dntijmt8b19t39.png
-
-`{{ page.date | date_to_string }},wongjorie`

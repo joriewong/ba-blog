@@ -1,5 +1,5 @@
 ---
-  layout: default
+  layout: post
   title: Trim snippet
 ---
 
@@ -19,4 +19,3 @@
   }
 ```
 
-`{{ page.date | date_to_string }},wongjorie`

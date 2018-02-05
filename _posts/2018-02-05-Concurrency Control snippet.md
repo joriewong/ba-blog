@@ -30,4 +30,3 @@ let mapLimit = (list, limit, asyncHandle) => {
 }
 ```
 
-`{{ page.date | date_to_string }},wongjorie`

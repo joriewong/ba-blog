@@ -1,5 +1,7 @@
 # ba-blog
 
+基于Jekyll的博客搭建
+
 ## 环境
 
 - Windows 10

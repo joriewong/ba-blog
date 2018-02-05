@@ -1,5 +1,5 @@
 ---
-  layout: default
+  layout: post
   title: Incomplete Github Pages
 ---
 
@@ -89,4 +89,3 @@ To git@github.com:joriewong/LCTT-Helper.git
   [3]: http://static.zybuluo.com/wongjorie/ka55adzbfr16texui3hrajoz/image_1buo6iacs1a4f1tb61il1mlh15ec3a.png
   [4]: http://static.zybuluo.com/wongjorie/3q15rvdud3anvkt4zvqk4md6/image_1buo6v1f719grek81112q93aei3n.png
   [5]: http://static.zybuluo.com/wongjorie/mbud6e9g48snpinvcvb9s20j/image_1buo7fifh1tmf79j1gegtemmq644.png
-`{{ page.date | date_to_string }},wongjorie`

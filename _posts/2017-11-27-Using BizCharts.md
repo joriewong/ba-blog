@@ -1,5 +1,5 @@
 ---
-  layout: default
+  layout: post
   title: Using BizCharts
 ---
 
@@ -627,4 +627,3 @@ DataSet的目标是为数据可视化场景提供状态驱动（state driven）�
   [27]: https://github.com/joriewong/BizCharts/blob/master/doc/tutorial/dataflow.md
   [28]: https://github.com/joriewong/BizCharts/blob/master/doc/api/theme.md
 
-`{{ page.date | date_to_string }},wongjorie`

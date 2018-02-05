@@ -67,5 +67,3 @@ MIT是和BSD一样宽泛的许可协议，作者只想保留版权，而无任�
 ![开源协议.svg-20.3kB][1]
 
   [1]: http://static.zybuluo.com/wongjorie/8u8yqbo07sxg89chxeta006y/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE.svg
-
-`{{ page.date | date_to_string }},wongjorie`

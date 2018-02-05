@@ -1,5 +1,5 @@
 ---
-  layout: default
+  layout: post
   title: IndexedDB
 ---
 
@@ -62,4 +62,3 @@ objectStore.openCursor().onsuccess = function(event) {
 
 
 
-`{{ page.date | date_to_string }},wongjorie`

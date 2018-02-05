@@ -1,5 +1,5 @@
 ---
-  layout: default
+  layout: post
   title: Webpack demos
 ---
 
@@ -1003,4 +1003,3 @@ $ webpack-dev-server --history-api-fallback
 
   [1]: https://github.com/ruanyf/webpack-demos
 
-`{{ page.date | date_to_string }},wongjorie`

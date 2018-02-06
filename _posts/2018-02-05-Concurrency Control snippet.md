@@ -1,6 +1,8 @@
 ---
   layout: post
   title: Concurrency Control snippet
+  category: Snippet
+  tags: javascript,concurrency,promise
 ---
 
 # {{ page.title }}

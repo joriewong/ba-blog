@@ -1,6 +1,8 @@
 ---
   layout: post
   title: Incomplete Github Pages
+  category: Github
+  tags: github,github pages
 ---
 
 # {{ page.title }}

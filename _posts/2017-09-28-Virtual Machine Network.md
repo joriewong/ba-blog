@@ -1,6 +1,8 @@
 ---
   layout: post
   title: Virtual Machine Network
+  category: Linux
+  tags: vitual machine
 ---
 
 # {{ page.title }}

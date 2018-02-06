@@ -1,6 +1,8 @@
 ---
   layout: post
   title: The public license
+  category: Github
+  tags: license
 ---
 
 # {{ page.title }}

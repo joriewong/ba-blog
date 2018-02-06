@@ -1,6 +1,8 @@
 ---
   layout: post
   title: Using BizCharts
+  category: React
+  tags: react,chart
 ---
 
 # {{ page.title }}

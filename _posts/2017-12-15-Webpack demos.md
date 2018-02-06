@@ -1,6 +1,8 @@
 ---
   layout: post
   title: Webpack demos
+  category: FrontEnd
+  tags: build,webpack
 ---
 
 # {{ page.title }}

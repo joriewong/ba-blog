@@ -1,6 +1,8 @@
 ---
   layout: post
   title: Trim snippet
+  category: Snippet
+  tags: javascript,trim,RegExp
 ---
 
 # {{ page.title }}

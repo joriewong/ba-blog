@@ -1,13 +1,12 @@
 ---
   layout: post
   title: Trim snippet
-  category: Snippet
-  tags: javascript,trim,RegExp
+  categories: [Snippet]
 ---
 
-# {{ page.title }}
+高效移除字符串开始和末尾的空格
 
-```
+```javascript
   String.prototype.trim = function() {
     var str = this.replace(/^\s+/, "");
           end = str.length - 1;

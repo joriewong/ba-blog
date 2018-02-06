@@ -1,11 +1,8 @@
 ---
   layout: post
   title: Webpack demos
-  category: FrontEnd
-  tags: build,webpack
+  categories: [FE]
 ---
-
-# {{ page.title }}
 
 ## How to use
 
@@ -18,12 +15,7 @@ $ npm i -g webpack@1.x webpack-dev-server@1.x
 Then, clone the repo and install the dependencies.
 
 ```bash
-# Linux & Mac
 $ git clone git@github.com:ruanyf/webpack-demos.git
-
-# Windows
-$ git clone https://github.com/ruanyf/webpack-demos.git
-:
 $ cd webpack-demos
 $ npm install
 ```

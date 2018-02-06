@@ -1,11 +1,8 @@
 ---
   layout: post
   title: IndexedDB
-  category: DataBase
-  tags: db
+  categories: [DB]
 ---
-
-# {{ page.title }}
 
 ## IndexedDB
 

@@ -1,11 +1,8 @@
 ---
   layout: post
   title: Incomplete Github Pages
-  category: Github
-  tags: github,github pages
+  categories: [Git]
 ---
-
-# {{ page.title }}
 
 ## 设置远程仓库的默认分支
 

@@ -1,11 +1,8 @@
 ---
   layout: post
   title: Virtual Machine Network
-  category: Linux
-  tags: vitual machine
+  categories: [Linux]
 ---
-
-# {{ page.title }}
 
 ## NAT(Network Address Translation)
 

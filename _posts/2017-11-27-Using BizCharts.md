@@ -1,11 +1,8 @@
 ---
   layout: post
   title: Using BizCharts
-  category: React
-  tags: react,chart
+  categories: [React]
 ---
-
-# {{ page.title }}
 
 ## Init
 
@@ -15,10 +12,7 @@
 
 ### 创建容器
 
-在页面的 body 部分创建一个节点，指定一个 id
-```
-<div id="mountNode"></div>
-```
+在页面的 body 部分创建一个节点，例如，一个id为mountNode的div。
 
 ### 使用组件生成图表
 
@@ -107,7 +101,7 @@ scale={
 
 **placeholder[String]**
 
-图表source为空时显示的内容。 默认值: <div style={{ position: 'relative', top: '48%', textAlign: 'center' }}>暂无数据</div> ;会在图表区域的中间显示 "暂无数据" 。
+图表source为空时显示的内容。会在图表区域的中间显示 "暂无数据" 。
 
 **更多属性、方法参考[Chart API doc][4]。**
 

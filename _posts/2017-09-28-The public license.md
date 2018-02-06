@@ -1,11 +1,8 @@
 ---
   layout: post
   title: The public license
-  category: Github
-  tags: license
+  categories: [Git]
 ---
-
-# {{ page.title }}
 
 ## BSD
 

@@ -11,7 +11,7 @@ rdiscount:
   extensions: [smart]
 
 # This is the default base url path.
-BASE_PATH : /
+BASE_PATH : https://joriewong.github.io
 
 # Website title.
 title : Bee Ant<small>Wongjorie's Blog</small>

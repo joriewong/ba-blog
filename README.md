@@ -43,3 +43,7 @@ $ gem install bundler
 $ jekyll new ba-blog
 $ jekyll serve
 ```
+
+## Liense
+
+[MIT](https://github.com/joriewong/ba-blog/blob/gh-pages/LICENSE)

@@ -44,6 +44,6 @@ $ jekyll new ba-blog
 $ jekyll serve
 ```
 
-## Liense
+## License
 
 [MIT](https://github.com/joriewong/ba-blog/blob/gh-pages/LICENSE)

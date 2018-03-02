@@ -3,7 +3,7 @@ layout: default
 title: Snippet | 代码片段
 ---
 
-<h1>Snippet</h1>
+<h1>代码片段</h1>
 <hr/>
 
 {% for category in site.categories %}

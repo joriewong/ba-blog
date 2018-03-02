@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Virtual Machine Network
-  categories: [Linux]
+  categories: [OPS]
 ---
 
 ## NAT(Network Address Translation)

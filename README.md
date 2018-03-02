@@ -41,7 +41,7 @@ $ gem install bundler
 
 ```
 $ jekyll new ba-blog
-$ jekyll serve
+$ jekyll server
 ```
 
 ## License

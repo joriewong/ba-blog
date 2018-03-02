@@ -3,7 +3,7 @@ layout: default
 title: DB | 数据库
 ---
 
-<h1>DB</h1>
+<h1>数据库</h1>
 <hr/>
 
 {% for category in site.categories %}

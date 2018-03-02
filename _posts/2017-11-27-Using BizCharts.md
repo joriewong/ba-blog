@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Using BizCharts
-  categories: [React]
+  categories: [FE]
 ---
 
 ## Init

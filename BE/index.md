@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Git | 开源
+title: BE | 后端
 ---
 
-<h1>Git</h1>
+<h1>后端</h1>
 <hr/>
 
 {% for category in site.categories %}
-{% if category[0] == "Git" %}
+{% if category[0] == "BE" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}

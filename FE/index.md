@@ -3,7 +3,7 @@ layout: default
 title: FE | 前端
 ---
 
-<h1>FE</h1>
+<h1>前端</h1>
 <hr/>
 
 {% for category in site.categories %}

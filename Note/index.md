@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Linux | 虚拟机
+title: Note | 笔记
 ---
 
-<h1>Linux</h1>
+<h1>笔记</h1>
 <hr/>
-
 {% for category in site.categories %}
-{% if category[0] == "Linux" %}
+{% if category[0] == "Note" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}

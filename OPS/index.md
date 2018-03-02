@@ -1,12 +1,13 @@
 ---
 layout: default
-title: React | React技术栈
+title: OPS | 运维
 ---
 
-<h1>React</h1>
+<h1>运维</h1>
 <hr/>
+
 {% for category in site.categories %}
-{% if category[0] == "React" %}
+{% if category[0] == "OPS" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}

@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Incomplete Github Pages
-  categories: [Git]
+  categories: [OPS]
 ---
 
 ## 设置远程仓库的默认分支

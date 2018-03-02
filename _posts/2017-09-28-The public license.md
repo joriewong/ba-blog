@@ -1,7 +1,7 @@
 ---
   layout: post
   title: The public license
-  categories: [Git]
+  categories: [OPS]
 ---
 
 ## BSD

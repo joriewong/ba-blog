@@ -19,6 +19,7 @@ let resultString = str.repeat(count);
 
 ```javascript
 /** 
+ * ......
  * 4444
  * 333
  * 22
@@ -26,6 +27,7 @@ let resultString = str.repeat(count);
  * 22
  * 333
  * 4444
+ * ......
  */
 function f(n) {
   for (let i = -n; i <= n; i++) {

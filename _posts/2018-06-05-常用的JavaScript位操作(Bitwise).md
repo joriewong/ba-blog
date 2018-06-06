@@ -53,11 +53,11 @@ const options  = OPTION_A | OPTION_B;
 if(options & OPTION_A) {
     // code here
 }
-// 选项A是否在options中
+// 选项B是否在options中
 if(options & OPTION_B) {
     // code here
 }
-// 选项A是否在options中
+// 选项C是否在options中
 if(options & OPTION_C) {
     // code here
 }

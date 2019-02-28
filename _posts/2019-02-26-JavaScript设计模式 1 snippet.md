@@ -4,6 +4,8 @@
   categories: [Snippet]
 ---
 
+> snippets
+
 ```javascript
 var CheckObject = {
     checkName: function() {},

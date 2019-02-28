@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Javascript设计模式 1 snippets
+  title: Javascript设计模式 1 snippet
   categories: [Snippet]
 ---
 

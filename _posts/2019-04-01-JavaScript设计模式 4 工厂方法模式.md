@@ -31,4 +31,19 @@ var Factory = function(type, content) {
     return new Factory(type, content);
   }
 }
+// 工厂原型中设置创建所有类型数据对象的基类
+Factory.prototype = {
+  Java: function(content) {
+    // ...
+  },
+  JavaScript: function(content) {
+    // ...
+  },
+  UI: function(content) {
+    // ...
+  },
+  PHP: function(content) {
+    // ...
+  }
+}
 ```

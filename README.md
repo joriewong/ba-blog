@@ -1,5 +1,8 @@
 # ba-blog
 
+![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=joriewong.ba-blog)
+![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=joriewong.ba-blog)
+
 基于Jekyll的博客搭建
 
 ## 环境

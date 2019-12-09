@@ -10,7 +10,7 @@
 
 2. 数组的长度一致。
 
-3. 类型的判断范围，需要区分:String, Boolean, Number, undefined, null, 函数，日期, window.
+3. 类型的判断范围，需要区分:String, Boolean, Number, undefined, null, 函数，日期, window。
 
 ```javascript
 function arraySimilar(arr1, arr2) {

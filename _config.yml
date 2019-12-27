@@ -14,7 +14,7 @@ rdiscount:
 BASE_PATH : http://wongjorie.top/
 
 # Website title.
-title : Bee Ant<small>Wongjorie's Blog</small>
+title : Bee Ant<small>Jared's Blog</small>
 
 # label listing. [create labels for category in folder `_label`]
 # social listing. [create labels for social in folder `_label`]
@@ -46,7 +46,7 @@ author:
 #  About
   about: ""
 # copyright
-  copyright: <a href="http://beian.miit.gov.cn">陇ICP备17002968号</a>
+  copyright: Some rights reserved &#169; 2018 Jared Wang. <small><a href="http://beian.miit.gov.cn">陇ICP备17002968号</a></small>
 
 # Disable custom plugins,and ignore symbolic links..
 # For more see: http://jekyllrb.com/docs/configuration/

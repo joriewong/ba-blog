@@ -42,11 +42,11 @@ author:
   music: music/ba.mp3
 # Social
   github: joriewong
-  mail: JieYu.Wang@cisdi.com.cn
+  mail: jieyuwang@deloitte.com.cn
 #  About
   about: ""
 # copyright
-  copyright: "Some rights reserved &#169; 2018 Wong Jorie."
+  copyright: <a href="http://beian.miit.gov.cn">陇ICP备17002968号</a>
 
 # Disable custom plugins,and ignore symbolic links..
 # For more see: http://jekyllrb.com/docs/configuration/

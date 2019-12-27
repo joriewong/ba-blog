@@ -46,7 +46,7 @@ author:
 #  About
   about: ""
 # copyright
-  copyright: &#169; 2018 Jared Wang. <a href="http://beian.miit.gov.cn">陇ICP备17002968号</a>
+  copyright: '&#169; 2018 Jared Wang. <a href="http://beian.miit.gov.cn">陇ICP备17002968号</a>'
 
 # Disable custom plugins,and ignore symbolic links..
 # For more see: http://jekyllrb.com/docs/configuration/

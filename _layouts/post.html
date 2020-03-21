@@ -2,8 +2,16 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <article>
-<h1>{{page.title}}</h1>
-<hr/>
-{{content}}
+    <h1>{{page.title}}</h1>
+    <hr />
+    {{content}}
 </article>
+<!--   gitalk       -->
+{% if site.gitalk %}
+<div class="comment">
+    {% include comments.html %}
+</div>
+{% endif %}

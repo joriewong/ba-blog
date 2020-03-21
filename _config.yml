@@ -55,3 +55,10 @@ safe:    false
 # For more see: https://github.com/jekyll/jekyll-sitemap
 gems:
   - jekyll-sitemap
+gitalk:
+    enable: true
+    owner: joriewong
+    repo: ba-blog
+    clientID: 2781bcd1a330bb645c79
+    clientSecret: cd50dace5a68c269e383effc50d241c730d230e4
+    admin: joriewong

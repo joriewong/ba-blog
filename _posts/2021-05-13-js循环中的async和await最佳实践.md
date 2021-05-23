@@ -1,7 +1,7 @@
 ---
-layout: post
-title: js循环里的async和await最佳实践
-catagories: [FE]
+  layout: post
+  title: js循环里的async和await最佳实践
+  categories: [FE]
 ---
 
 一些`async/await`在js循环里的最佳实践。

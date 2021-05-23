@@ -1,7 +1,7 @@
 ---
-layout: post
-title: vue conf 2021 points
-catagories: [FE]
+  layout: post
+  title: vue conf 2021 points
+  categories: [FE]
 ---
 
 vue conf 2021里我关心的points
